@@ -1,7 +1,7 @@
 # requirements.txt for DefectDojo using Python 3.x
-asteval==0.9.25
+asteval==1.0.6
 bleach==3.3.1
-celery==5.1.0
+celery==5.5.3
 coverage==5.5
 defusedxml==0.7.1
 django_celery_results==2.2.0
@@ -19,35 +19,35 @@ django-tagging==0.5.0
 django-watson==1.5.5
 django-prometheus==2.1.0
 Django==3.1.13
-djangorestframework==3.12.4
-gunicorn==20.1.0
+djangorestframework==3.15.2
+gunicorn==23.0.0
 html2text==2020.1.16
 humanize==3.10.0
 jira==3.0.1
 PyGithub==1.55
-lxml==4.6.3
+lxml==4.9.1
 Markdown==3.3.4
 mysqlclient==2.0.3
 openpyxl==3.0.7
 xlrd==1.2.0
-Pillow==8.3.1  # required by django-imagekit
+Pillow==10.3.0  # required by django-imagekit
 psycopg2-binary==2.9.1
-cryptography==3.4.7
+cryptography==44.0.1
 python-dateutil==2.8.2
 pytz==2021.1
 redis==3.5.3
-requests==2.26.0
+requests==2.32.4
 sqlalchemy==1.4.21  # Required by Celery broker transport
 supervisor==4.2.2
-urllib3==1.26.6
+urllib3==2.5.0
 uWSGI==2.0.19.1
 vobject==0.9.6.1
 whitenoise==5.2.0
 titlecase==2.3
-social-auth-app-django==4.0.0
+social-auth-app-django==5.4.1
 social-auth-core==4.1.0
-Python-jose==3.3.0
-gitpython==3.1.18
+Python-jose==3.4.0
+gitpython==3.1.41
 debugpy==1.3.0
 python-gitlab==2.9.0
 google-auth==1.33.0
@@ -64,7 +64,7 @@ django-debug-toolbar-request-history==0.1.3
 vcrpy==4.1.1
 vcrpy-unittest==0.1.7
 django-tagulous==1.1.0
-PyJWT==2.1.0
+PyJWT==2.4.0
 cvss==2.3
 django-fieldsignals==0.6.0
 hyperlink==21.0.0
